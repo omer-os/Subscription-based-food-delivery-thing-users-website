@@ -1,5 +1,10 @@
 import React from "react";
+import HomePage from "~/components/custom/screens/home-page";
 
 export default function Page() {
-  return <div>Page</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
