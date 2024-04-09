@@ -30,13 +30,13 @@ export const mealSchema = z.object({
 const subscriptionItemSchema = z.object({
   mealId: z.string(),
   day: z.enum([
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
+    "sunday",
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
   ]),
   mealType: z.enum(["breakfast", "lunch", "dinner"]),
 });

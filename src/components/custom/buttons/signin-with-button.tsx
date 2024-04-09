@@ -22,7 +22,7 @@ export default function SininWithButton({
     <Button
       onClick={() =>
         signIn(providerId, {
-          callbackUrl: "/plans",
+          callbackUrl: "/dashboard/plans",
           redirect: false,
         })
       }
